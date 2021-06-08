@@ -33,6 +33,6 @@ def decrypt(keys, words):
         
     
     
-#encrypt(1, 'GIEWIVrGMTLIVrHIQS')
+encrypt(20, 'HI') #=> returns 'BC'
 
-decrypt(25, 'GIEWIVRGMTLIVRHIQS')
+decrypt(20, 'BC') #=> returns 'HI'
